@@ -241,8 +241,6 @@ main {
     background-image: url("https://www.psdgraphics.com/file/blue-abstract-background.jpg");
   }
 
-  /* end portfolio project images */
-
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
