@@ -221,77 +221,77 @@ main {
 
 /* portfolio project images */
 .run-buddy {
-  background-image: url("https://th.bing.com/th/id/OIP.HPOb7wfCkByLbdsODcRTSwHaEK?w=268&h=180&c=7&r=0&o=5&pid=1.7);
+  background-image: url("https://th.bing.com/th/id/OIP.HPOb7wfCkByLbdsODcRTSwHaEK?w=268&h=180&c=7&r=0&o=5&pid=1.7");
 
+}
+
+.led-wall {
+  background-image: url("https://www.bing.com/ck/a?!&&p=8f2b10e4ced6e020JmltdHM9MTY3MjQ0NDgwMCZpZ3VpZD0xZWZiYjRhMy04ZjY3LTY3ZGUtM2QxNS1hNmM5OGVjZjY2M2MmaW5zaWQ9NTU1NQ&ptn=3&hsh=3&fclid=1efbb4a3-8f67-67de-3d15-a6c98ecf663c&u=a1L2ltYWdlcy9zZWFyY2g_cT1CYWNrZ3JvdW5kJTIwSW1hZ2UlMjBmb3IlMjBQb3J0Zm9saW8lMjBXZWJzaXRlJkZPUk09SVFGUkJBJmlkPTU5MTk2MjY0RkQzREFFOTlEMDJFN0RFM0MzM0YwRkRGNjExRjQxQTI&ntb=1");
+}
+
+/* .react-calc {
+  background-image: url("../images/02-portfolio-2.jpg");
+} */
+
+.pastel-puzzles {
+  background-image: url(https://th.bing.com/th/id/OIP.1IIXcOc_TauIUKCCR7zNwwHaIr?w=168&h=196&c=7&r=0&o=5&pid=1.7);
+}
+
+.surf-report {
+  background-image: url(https://www.psdgraphics.com/file/blue-abstract-background.jpg);
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
   }
 
-  .led-wall {
-    background-image: url("https://www.bing.com/ck/a?!&&p=8f2b10e4ced6e020JmltdHM9MTY3MjQ0NDgwMCZpZ3VpZD0xZWZiYjRhMy04ZjY3LTY3ZGUtM2QxNS1hNmM5OGVjZjY2M2MmaW5zaWQ9NTU1NQ&ptn=3&hsh=3&fclid=1efbb4a3-8f67-67de-3d15-a6c98ecf663c&u=a1L2ltYWdlcy9zZWFyY2g_cT1CYWNrZ3JvdW5kJTIwSW1hZ2UlMjBmb3IlMjBQb3J0Zm9saW8lMjBXZWJzaXRlJkZPUk09SVFGUkJBJmlkPTU5MTk2MjY0RkQzREFFOTlEMDJFN0RFM0MzM0YwRkRGNjExRjQxQTI&ntb=1");
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
   }
 
-  .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+  header nav {
+    justify-content: center;
   }
 
-  .pastel-puzzles {
-    background-image: url("https://th.bing.com/th/id/OIP.1IIXcOc_TauIUKCCR7zNwwHaIr?w=168&h=196&c=7&r=0&o=5&pid=1.7");
+  .page-section>h2,
+  .page-section>div {
+    flex: 0 0 100%;
   }
 
-  .surf-report {
-    background-image: url("https://www.psdgraphics.com/file/blue-abstract-background.jpg");
+  .page-section>h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
   }
 
-  @media screen and (max-width: 980px) {
-    header {
-      padding: 0 0 10px 0;
-      justify-content: center;
-      text-align: center;
-    }
-
-    header h1 {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-      font-size: 10vw;
-    }
-
-    header nav {
-      justify-content: center;
-    }
-
-    .page-section > h2,
-    .page-section > div {
-      flex: 0 0 100%;
-    }
-
-    .page-section > h2 {
-      border-right: none;
-      border-bottom: 4px solid var(--primary);
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      text-align: left;
-      font-size: 7vw;
-    }
+  .flex-item:first-child {
+    min-height: 150px;
   }
 
-  @media screen and (max-width: 768px) {
-
-    .flex-item,
-    .flex-item:first-child {
-      flex-basis: 100%;
-    }
-
-    .flex-item:first-child {
-      min-height: 150px;
-    }
-
-    .hero-banner {
-      justify-content: center;
-      text-align: center;
-    }
-
-    .contact address {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+  .hero-banner {
+    justify-content: center;
+    text-align: center;
   }
+
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

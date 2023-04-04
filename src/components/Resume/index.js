@@ -1,12 +1,10 @@
 import React from 'react';
-import resume from '"C:\Users\yasmi\Desktop\Yasmine Mohamed Resume.pdf"';
+import resume from '../../assets/resume/Yasmine Mohamed Resume.pdf';
 function Resume() {
     return (
         <section className="my-5">
             <div className="my-2">
-                <p>
-                    Download my <a href="https://www.linkedin.com/">resume</a>
-                </p>
+
                 <h3>Front-end Proficiencies</h3>
                 <ul className="skills">
                     <li>HTML</li>
@@ -35,4 +33,3 @@ function Resume() {
 export default Resume;
 
 
-"C:\Users\yasmi\Desktop\Yasmine Mohamed Resume.pdf"

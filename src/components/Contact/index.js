@@ -44,7 +44,7 @@ function Contact() {
         <section>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name: Yasmine Mohamed</label>
+                    <label htmlFor="name">Yasmine Mohamed</label>
                     <input
                         type="text"
                         name="name"
@@ -53,7 +53,7 @@ function Contact() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:yasminashoush@yahoo.com</label>
+                    <label htmlFor="email">yasminashoush@yahoo.com</label>
                     <input
                         type="email"
                         name="email"

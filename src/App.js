@@ -18,10 +18,10 @@ function App() {
   return (
     <div>
       <Header>
-        <Nav>
+        <Nav
           pages={pages}
-          setCurrentPage= {setCurrentPage}
-          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}>
         </Nav>
       </Header>
       <main>

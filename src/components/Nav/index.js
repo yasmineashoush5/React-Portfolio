@@ -7,25 +7,27 @@ function Nav(props) {
         setCurrentPage,
         currentPage,
     } = props;
-
+    console.log(props)
     useEffect(() => {
-        document.title = capitalizeFirstLetter(currentPage.name);
+        if (currentPage) {
+            document.title = capitalizeFirstLetter(currentPage.name);
+        }
     }, [currentPage]);
 
     return (
         <nav>
             <ul className="flex-row">
-                {pages.map((Page) => (
+                {pages.map((page) => (
                     <li
-                        className={`mx-5 ${currentPage.name === Page.name && 'navActive'
+                        className={`mx-5 ${currentPage?.name === page.name && 'navActive'
                             }`}
-                        key={Page.name}
+                        key={page.name}
                     >
-                        <span
-                            onClick={() => setCurrentPage(Page)}
+                        <a
+                            onClick={() => setCurrentPage(page)}
                         >
-                            {capitalizeFirstLetter(Page.name)}
-                        </span>
+                            {capitalizeFirstLetter(page.name)}
+                        </a>
                     </li>
                 ))}
             </ul>

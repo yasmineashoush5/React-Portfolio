@@ -7,6 +7,6 @@ export function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-export function removeHyphensAndCapitalize(string) {
-    return string.replace(/-/g, ' ').replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+export function removeHyphensAndCapitalize(str) {
+    return str?.replace(/-/g, ' ')?.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
 }
