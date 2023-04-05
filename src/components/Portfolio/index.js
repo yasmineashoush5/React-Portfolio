@@ -12,7 +12,7 @@ function Portfolio() {
         },
         {
             name: 'Study-Buddies',
-            description: 'This app is designed to help the students to study in a virtual setting',
+            description: 'This is a group project which is designed to help the students to study in a virtual setting',
             link: "https://study-buddies.herokuapp.com/",
             repo: "https://github.com/ssnakeoil/study-buddies"
         },
@@ -25,14 +25,13 @@ function Portfolio() {
         {
             name: 'React-Portfolio',
             description: 'I built my Portfolio with react technology',
-            link: "",
             repo: "https://github.com/yasmineashoush5/React-Portfolio"
         },
         {
             name: 'TaskMaster',
-            description: 'React/JavaScript/CSS',
-            link: "https://github.com",
-            repo: "https://github.com"
+            description: 'This is a group project, we built a task list which helps to organize tasks',
+            link: "https://task-master-1.herokuapp.com/",
+            repo: "https://github.com/kyleroff112/TaskMaster"
         },
     ]);
 
